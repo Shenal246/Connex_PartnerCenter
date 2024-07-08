@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import SmCard from './Components/Public/SmCard/SmCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SmCard width="150px" height="150px" topic="Total Partners" value="24" />
+      <SmCard width="150px" height="150px" topic="Total Products" value="3,420" />
+      <SmCard width="150px" height="150px" topic="Average Time" value="2m 34s" />
+      <SmCard width="150px" height="150px" topic="New Partner Requests" value="10" />
     </div>
   );
 }

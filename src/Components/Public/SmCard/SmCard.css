@@ -1,0 +1,28 @@
+
+.reusablesmcard {
+    border: 2px solid #cccccc8c;
+    border-radius: 15px;
+    padding: 16px;
+    margin: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .reusablesmcard:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reusablesmcard-topic {
+    margin: 0;
+    font-size: 1.4em;
+    color: #5c5b5b;
+    text-align: left;
+  }
+  
+  .reusablesmcard-value {
+    margin: 15px 0 0;
+    font-size: 3em;
+    color: #313131;
+    text-align: center;
+  }
+  
