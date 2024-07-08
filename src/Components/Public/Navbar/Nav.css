@@ -1,0 +1,63 @@
+.nav{
+    width: 25vh;
+    background-color: white;
+    height: 95vh;
+    margin: 1.5vh;
+    border-radius: 2vh;
+    
+}
+.nav .lg1{
+    width: 18vh;
+    margin-left: 4.5vh;
+    margin-top: 3vh;
+}
+.nav .lg2{
+    width: 4vh;
+    margin-top: 1vh;
+}
+.nav .blt{
+    font-size: 1.25vh;
+    color: rgb(28, 165, 238);
+    float: left;
+    margin-right: 0.5vh;
+    margin-left: 3.5vh;
+    margin-top: 2vh;
+}
+.nav .grt{
+    margin-top: 2vh;
+    font-size: 1.25vh;
+    color: rgb(9, 188, 51);
+    float: left;
+    margin-right: 0.5vh;
+}
+.nav .btns .sbt{
+    border: none;
+    outline: none;
+    width: 20vh;
+    margin-left: 2vh;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.25vh;
+    color: rgb(115, 114, 114);
+    padding: 0.5vh;
+    padding-left: 2.5vh;
+    border-radius: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.nav .btns .sbt i{
+    margin-right: 1vh;
+}
+.nav .btns h4{
+    color: rgb(115, 114, 114);
+    margin-left: 2vh;
+    font-family: monospace;
+    font-weight: bold;
+}
+.nav .btns .sbt:hover{
+    background-color: #0255A8;
+    color: white;
+    cursor: pointer;
+}
+.nav .btns .sbt:active{
+    transform: scale(0.95);
+}
