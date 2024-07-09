@@ -1,0 +1,113 @@
+.ntc{
+    
+    width: 30vh;
+    padding: 1vh;
+    height: 3vh;
+    border-radius: 2vh;
+    transition:  1s ease;
+   
+    background-color: white;
+    position: fixed;
+    font-size: 1vh;
+    position: fixed;
+    left: 115vh;
+    top: 1vh;
+    transform: translate(-50%, 0%);
+    overflow: hidden;
+}
+
+.ntc img{
+    width: 2.5vh;
+    float: left;
+    border-radius: 2vh;
+}
+.ntc h4{
+    float: left;
+    font-size: 1.5vh;
+    margin-top: 0vh;
+    margin-left: 2vh;
+    cursor: pointer;
+    transition:  1s ease;
+}
+.ntc .mnu{
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 1vh;
+    font-weight: bold;
+    margin-left: 15vh;
+    cursor: pointer;
+    margin-top: -0.5vh;
+}
+.ntc .mnu:hover{
+    background-color: rgb(230, 229, 229);
+    border-radius: 2vh;
+
+}
+.ntc .mnuc{
+    background-color: white;
+    outline: none;
+    border: none;
+    font-size: 2vh;
+    font-weight: bold;
+    margin-left: 20vh;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 24px; /* Adjust icon size if needed */
+    color: white;
+}
+.ntc .src .btns{
+    width: 15vh;
+    height: 2vh;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    left: 110vh;
+    top: 1vh;
+    transform: translate(150%, 50%);
+    margin-top: 0.5vh;
+    border-radius: 3vh;
+    padding-top: 0.5vh;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2vh;
+
+}
+.ntc .src .btns:hover{
+    background-color: rgb(134, 134, 134);
+    color: white;
+}
+
+.ntc .src {
+    margin-top: 12vh;
+    margin-left: -22vh;
+    transition:  1s ease;
+}
+#pfimg{
+    transition:  1s ease;
+}
+
+.info{
+    margin-left: 18vh;
+    margin-top: -12vh;
+    font-family: monospace;
+    color: #505050;
+    overflow: hidden;
+    transition:  1s ease;
+    background-color: #dedede;
+    padding-top: 0.8vh;
+    width: 26vh;
+    border-radius: 2vh;
+    height: 10vh;
+}
+.info .empid{
+    margin-top: -1.5vh;
+    
+}
+.info img{
+    width: 10vh;
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
