@@ -10,6 +10,7 @@ const ChartCard = ({ width, height, topic, dataArray }) => {
         // title: 'My Daily Activities',
         pieHole: 0.4,
         legend: { position: 'bottom' },
+        // colors: ['#8AD1C2', '#9F8AD1', '#D18A99', '#D1C18A', '#8A99D1'],
         chartArea: {
             width: '95%',
             height: '85%',

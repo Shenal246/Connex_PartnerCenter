@@ -8,6 +8,7 @@
     left: 30vh;
     bottom: 0vh;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
 }
 
 .footerButton1 {
@@ -55,11 +56,15 @@
 
 .footerButtonGroup {
     /* display: inline; */
-    text-align: center;
     margin-top: 1vh !important;
+    margin-left: 60vh;
 }
 
 .footereicon1 {
     font-size: 3vh;
     font-weight: 5vh;
+}
+
+.footerText{
+    margin-left: 2vh ;
 }
