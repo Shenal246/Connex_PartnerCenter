@@ -23,8 +23,21 @@
 //       <ChartCard width="250px" height="250px" topic="Request Status" dataArray={data} />
 //       <Footer/>
 
+import './App.css';
+import Navbar from './Components/Public/Navbar/Navbar';
+import Tpnt from './Components/Public/topnotch/Tpnt';
+
+function App() {
+  return (
+    <>
+    <Navbar/>  {/* nirosh - navigation bar */}
+    <Tpnt/>
+    </>
+  );
+}
+
 //     </div>
 //   );
 // }
 
-// export default App;
+export default App;
