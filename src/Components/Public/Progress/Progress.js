@@ -4,8 +4,6 @@ import PropTypes from 'prop-types';
 
 function Progress({ width, height, topic, value }) {
     return (
-
-
         <div className="reusableprcard" style={{ width, height }}>
             <h3 className="reusableprcard-topic">{topic}</h3>
             <div className="progress-container">

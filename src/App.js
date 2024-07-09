@@ -16,17 +16,17 @@ function App() {
   ];
   return (
     <>
-      <div className='asdfghjk'>
+      <div className='asdfghjk row'>
         <Navbar />  {/* nirosh - navigation bar */}
         {/* <Tpnt /> */}
 
-        <SmCard width="150px" height="150px" topic="Total Partners" value="24" />
-        <SmCard width="150px" height="150px" topic="Total Products" value="3,420" />
-        <SmCard width="150px" height="150px" topic="Average Time" value="2m 34s" />
-        <SmCard width="150px" height="150px" topic="New Partner Requests" value="10" />
-        <SmCard width="150px" height="150px" topic="New Partner Requests" value="10" />
-        <ChartCard width="250px" height="250px" topic="Request Status" dataArray={data} />
-        <Progress width="300px" height="60px" topic="Total Partners" value={"69"} />
+        <SmCard width="16vh" height="16vh" topic="Total Partners" value="24" />
+        <SmCard width="16vh" height="16vh" topic="Total Products" value="3,420" />
+        <SmCard width="16vh" height="16vh" topic="Average Time" value="2m 34s" />
+        <SmCard width="16vh" height="16vh" topic="New Partner Requests" value="10" />
+        <SmCard width="16vh" height="16vh" topic="New Partner Requests" value="10" />
+        <ChartCard width="25vh" height="25vh" topic="Request Status" dataArray={data} />
+        <Progress width="30vh" height="7vh" topic="Total Partners" value={"69"} />
 
       </div>
       <Footer />
