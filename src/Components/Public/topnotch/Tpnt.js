@@ -42,8 +42,9 @@ function Tpnt() {
     
       </div>
       <div className='info'>
+        <img src={img2}></img>
         <h4> Head Of Logistic Management</h4>
-        <img src={img}></img>
+        
         <h4 className='empid'> Employe Id : 123456</h4>
       </div>
 
